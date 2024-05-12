@@ -29,6 +29,11 @@ name = "hw"
 path = "src/h.rs"
 doc = false
 
+[[bin]]
+name = "k"
+path = "src/k.rs"
+doc = false
+
 [[bench]]
 name = "sst2_benchmark"
 harness = false
