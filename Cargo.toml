@@ -129,3 +129,10 @@ required-features = ["onnx"]
 [[example]]
 name = "generation_gpt2_hf_tokenizers"
 required-features = ["hf-tokenizers"]
+
+[target.aarch64-apple-darwin]
+rustflags = ["-C", "link-arg=-static"]
+
+
+[target.x86_64-apple-darwin]
+rustflags = ["-C", "link-arg=-static"]
